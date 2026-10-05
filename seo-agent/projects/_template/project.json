@@ -1,0 +1,23 @@
+{
+  "name": "Project name",
+  "url": "https://example.com/",
+  "platform": "shopify | wordpress | salla | zid | wix | static | other",
+  "languages": ["de"],
+  "market": "DE",
+  "searchEngineCountry": "Germany",
+  "type": "ecommerce | local-service | saas | content | other",
+  "brandFile": "brand.md",
+  "keywordsFile": "keywords.csv",
+  "competitors": ["https://competitor-1.example", "https://competitor-2.example"],
+  "publish": {
+    "method": "connector | api | git | manual",
+    "notes": "Shopify: Claude Shopify connector. WordPress: REST API with WP_USER/WP_APP_PASSWORD in .env. Static site: git repo path. Manual: agent writes copy-paste-ready files."
+  },
+  "internalLinks": {
+    "home": "/",
+    "blog": "/blogs/news",
+    "mainProduct": "/products/...",
+    "mainCollection": "/collections/..."
+  },
+  "limits": { "titleMin": 30, "titleMax": 60, "descMin": 110, "descMax": 160, "thinWords": 250 }
+}

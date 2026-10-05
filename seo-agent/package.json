@@ -1,0 +1,18 @@
+{
+  "name": "seo-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "General SEO agent for Claude Code: audits any website or store in any language, fixes the problems, and re-checks.",
+  "type": "module",
+  "scripts": {
+    "crawl": "node scripts/crawl.mjs",
+    "audit": "node scripts/audit.mjs",
+    "check": "node scripts/check-page.mjs",
+    "serp": "node scripts/analyze-serp.mjs",
+    "lighthouse": "node scripts/lighthouse.mjs",
+    "cadence": "node scripts/cadence.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

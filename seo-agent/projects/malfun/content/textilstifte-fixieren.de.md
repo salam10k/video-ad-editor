@@ -1,31 +1,40 @@
-# Shopify-Blogartikel — MalFun
-
-> **Status:** Entwurf (Shop noch nicht live). Erstellt mit dem /blog-Workflow.
-> **Vor dem Veröffentlichen prüfen:** alle Stellen mit `⚠️ PRÜFEN` — dort fehlen bestätigte Produktangaben
-> (Material der Decke, Pflegehinweise, Inhalt des Sets). Laut Brand-Voice-Regel keine unbestätigten Angaben veröffentlichen.
-
-## Shopify-Felder
-
-| Feld | Inhalt |
-|---|---|
-| **Titel (H1)** | Textilstifte fixieren: So bleibt das Kunstwerk auf der Decke waschfest |
-| **Seitentitel (SEO, ≤ 60 Zeichen)** | Textilstifte fixieren: Bügeln, Backofen & waschfest |
-| **Meta-Beschreibung (≤ 155 Zeichen)** | Textilstifte fixieren in 3 Schritten: trocknen, bügeln, warten. So wird das Bild auf Decke oder Shirt waschfest – mit Temperatur-Tabelle und Kinder-Tipps. |
-| **URL-Handle** | `textilstifte-fixieren` |
-| **Haupt-Keyword** | textilstifte fixieren |
-| **Keyword-Cluster** | textilstifte bügeln · textilstifte waschfest · textilstifte waschmaschinenfest · textilfarbe fixieren · maldecke waschen · malen mit kindern |
-| **Tags** | Anleitung, Textilstifte, Pflege |
-| **Titelbild-Alt-Text** | Kind malt mit Textilstiften ein Bild auf eine helle Maldecke |
-
 ---
-
-## Artikeltext (in den Shopify-Editor kopieren)
+kind: blog
+lang: de
+title: "Textilstifte fixieren: So bleibt das Kunstwerk auf der Decke waschfest"
+metaTitle: "Textilstifte fixieren: Bügeln, Backofen & waschfest"
+description: "Textilstifte fixieren in 3 Schritten: trocknen, bügeln, warten. So wird das Bild auf Decke oder Shirt waschfest – mit Temperatur-Tabelle und Kinder-Tipps."
+slug: textilstifte-fixieren
+primaryKeyword: "textilstifte fixieren"
+keywords:
+  - textilstifte bügeln
+  - textilstifte waschfest
+  - textilstifte waschmaschinenfest
+  - textilfarbe fixieren
+  - maldecke waschen
+  - malen mit kindern
+targetWords: 1100
+cover:
+  src: ⚠️ PRÜFEN (Titelbild hochladen)
+  alt: "Kind malt mit Textilstiften ein Bild auf eine helle Maldecke"
+faq:
+  - q: "Muss man Textilstifte fixieren?"
+    a: "Bei den meisten Textilstiften ja. Erst die Hitze verbindet die Farbe dauerhaft mit dem Stoff. Ohne Fixieren kann das Bild in der Wäsche verblassen. Prüfe die Angaben auf deinen Stiften."
+  - q: "Wie lange muss man Textilstifte bügeln?"
+    a: "Viele Hersteller empfehlen etwa 3 bis 5 Minuten für das ganze Motiv, ohne Dampf und mit einem Tuch dazwischen. Bei empfindlichen Stoffen lieber niedriger und etwas länger."
+  - q: "Sind Textilstifte nach dem Bügeln waschfest?"
+    a: "Bei vielen Marken ja, je nach Stift bis 40 °C oder 60 °C. Es gilt immer der niedrigere Wert von Stift und Pflegeetikett."
+  - q: "Kann man Textilstifte ohne Bügeleisen fixieren?"
+    a: "Manche nutzen den Backofen oder den Föhn. Für eine flauschige Decke ist das Bügeleisen mit niedriger Temperatur und Tuch die sicherere Wahl."
+  - q: "Wann darf ich die bemalte Decke das erste Mal waschen?"
+    a: "Am besten frühestens eine Woche nach dem Fixieren, im Schonwaschgang mit mildem Waschmittel, danach an der Luft trocknen."
+---
 
 Ihr habt den ganzen Sonntagnachmittag gemalt. Da ist ein lila Hund, drei Sonnen und etwas, das laut deinem Kind „eindeutig ein Drache“ ist. Jetzt kommt die wichtigste Frage des Tages: Wie bleibt der Drache auch nach der ersten Wäsche ein Drache – und wird nicht zur blassen Wolke?
 
 Die Antwort: **Textilstifte fixieren.** Das dauert nur ein paar Minuten, braucht ein Bügeleisen (oder einen Backofen) und ein bisschen Geduld. Hier erfährst du Schritt für Schritt, wie es klappt – und worauf du bei einer flauschigen Decke besonders achten solltest.
 
-### Warum musst du Textilstifte fixieren?
+## Warum musst du Textilstifte fixieren?
 
 Die meisten Textilstifte und Textilfarben enthalten Bindemittel, die erst durch **Hitze** richtig mit den Fasern verbunden werden. Ohne Fixieren sitzt die Farbe nur obendrauf – und die Waschmaschine nimmt sie gern mit.
 
@@ -33,13 +42,13 @@ Erst nach dem Fixieren werden viele Stifte waschfest. edding gibt zum Beispiel f
 
 > **Der wichtigste Tipp:** Was auf deinen Stiften steht, gilt immer zuerst. Temperatur, Zeit und Waschgrad unterscheiden sich je nach Marke.
 
-### Schritt 1: Gut trocknen lassen (mindestens 24 Stunden)
+## Schritt 1: Gut trocknen lassen (mindestens 24 Stunden)
 
 Auch wenn es schwerfällt: Lass das Kunstwerk **mindestens 24 Stunden** trocknen, bevor du es fixierst. Fühlt sich die Farbe nur außen trocken an, kann sie beim Bügeln verschmieren oder am Bügeleisen kleben bleiben.
 
 Tipp für ungeduldige Künstler: Häng die Decke gut sichtbar auf. Dann ist sie für einen Tag ein offizielles Ausstellungsstück – und keiner kuschelt aus Versehen den Drachen platt.
 
-### Schritt 2: Textilstifte bügeln – so geht's richtig
+## Schritt 2: Textilstifte bügeln – so geht's richtig
 
 Das Bügeln ist die einfachste Methode, um Textilstifte zu fixieren:
 
@@ -49,7 +58,7 @@ Das Bügeln ist die einfachste Methode, um Textilstifte zu fixieren:
 4. **Bügeln, nicht schieben.** Arbeite in kleinen Abschnitten und bügle jede Stelle mehrere Minuten – viele Hersteller empfehlen etwa **3 bis 5 Minuten** für das ganze Motiv. In Bewegung bleiben, damit nichts versengt.
 5. **Abkühlen lassen.** Die Farbe härtet beim Abkühlen weiter aus.
 
-### Welche Temperatur für welchen Stoff?
+## Welche Temperatur für welchen Stoff?
 
 | Stoff | Bügelstufe | Hinweis |
 |---|---|---|
@@ -58,7 +67,7 @@ Das Bügeln ist die einfachste Methode, um Textilstifte zu fixieren:
 | Polyester, Fleece, Plüsch | ● (niedrig) | Vorsicht: Kunstfasern können bei zu viel Hitze schmelzen oder glänzen. Immer mit Tuch und Test an einer unauffälligen Stelle |
 | Seide, Viskose | ● (niedrig) | Nur mit Tuch, kurze Zeit |
 
-### Das Besondere an einer Maldecke
+## Das Besondere an einer Maldecke
 
 Hier sind fast alle Anleitungen im Netz still – sie denken an T-Shirts. Eine Kuscheldecke ist aber oft weich, flauschig und aus Kunstfasern. Das heißt:
 
@@ -69,11 +78,11 @@ Hier sind fast alle Anleitungen im Netz still – sie denken an T-Shirts. Eine K
 
 ⚠️ PRÜFEN: Hier die **offiziellen MalFun-Pflegehinweise** einfügen (Material der Decke, maximale Bügeltemperatur, Waschtemperatur). Beispiel-Formulierung, sobald bestätigt: „Für deine MalFun-Decke gilt: …“
 
-### Schritt 3: Warten – dann erst waschen
+## Schritt 3: Warten – dann erst waschen
 
 Nach dem Fixieren braucht die Farbe noch etwas Zeit, um vollständig auszuhärten. Die Empfehlungen reichen von **einigen Tagen bis zu zwei Wochen**. Eine gute Faustregel: mindestens eine Woche warten, bevor die Decke zum ersten Mal in die Maschine kommt.
 
-### Textilstifte waschmaschinenfest pflegen: so bleibt das Bild schön
+## Textilstifte waschmaschinenfest pflegen: so bleibt das Bild schön
 
 - **Auf links drehen** (wenn möglich) oder in einen Wäschesack stecken.
 - **Schonwaschgang** mit mildem Waschmittel, ohne Bleiche.
@@ -81,13 +90,13 @@ Nach dem Fixieren braucht die Farbe noch etwas Zeit, um vollständig auszuhärte
 - **Lufttrocknen** statt Trockner. Hitze und Reibung im Trockner können die Farbe auf Dauer brüchig machen.
 - **Nicht direkt aufs Motiv bügeln**, auch später nicht. Immer mit Tuch oder von hinten.
 
-### Alternative: Textilfarbe im Backofen fixieren
+## Alternative: Textilfarbe im Backofen fixieren
 
 Für Stoffe, die sich schlecht bügeln lassen, nutzen manche den Backofen. Typisch ist eine Temperatur um **150 °C für einige Minuten**, der Stoff locker zwischen unbedrucktem Papier gerollt.
 
 Für eine **flauschige Decke** empfehlen wir das ehrlich gesagt nicht: Kunstfasern sind hitzeempfindlich, und eine große Decke im Ofen ist eher ein Abenteuer als eine Methode. Bleib hier beim Bügeleisen.
 
-### Fixieren mit Kindern: wer macht was?
+## Fixieren mit Kindern: wer macht was?
 
 Malen ist Kindersache, Bügeln ist Erwachsenensache. So teilt ihr euch die Arbeit:
 
@@ -97,40 +106,8 @@ Malen ist Kindersache, Bügeln ist Erwachsenensache. So teilt ihr euch die Arbei
 
 Noch mehr Ideen für bildschirmfreie Nachmittage findest du in unseren anderen Artikeln im ⚠️ PRÜFEN: [MalFun-Blog](/blogs/news).
 
-### Fazit: Drei Schritte für einen Drachen, der bleibt
+## Fazit: Drei Schritte für einen Drachen, der bleibt
 
 Textilstifte fixieren ist einfacher, als es klingt: **24 Stunden trocknen, ohne Dampf bügeln, eine Woche warten.** Bei einer Kuscheldecke gilt zusätzlich: niedrige Temperatur, immer ein Tuch dazwischen, erst testen.
 
 Und dann darf der lila Hund mit den drei Sonnen und dem eindeutigen Drachen so oft in die Wäsche, wie nötig. Du hast noch keine Decke zum Bemalen? Hier geht's zur ⚠️ PRÜFEN: [MalFun Maldecke](/products/maldecke) und zum ⚠️ PRÜFEN: [passenden Zubehör](/collections/zubehoer).
-
----
-
-## FAQ (als FAQ-Block unter dem Artikel einfügen)
-
-**Muss man Textilstifte fixieren?**
-Bei den meisten Textilstiften ja. Erst die Hitze verbindet die Farbe dauerhaft mit dem Stoff. Ohne Fixieren kann das Bild in der Wäsche verblassen. Prüfe die Angaben auf deinen Stiften.
-
-**Wie lange muss man Textilstifte bügeln?**
-Viele Hersteller empfehlen etwa 3 bis 5 Minuten für das ganze Motiv, ohne Dampf und mit einem Tuch dazwischen. Bei empfindlichen Stoffen lieber niedriger und etwas länger.
-
-**Sind Textilstifte nach dem Bügeln waschfest?**
-Bei vielen Marken ja, je nach Stift bis 40 °C oder 60 °C. Es gilt immer der niedrigere Wert von Stift und Pflegeetikett.
-
-**Kann man Textilstifte ohne Bügeleisen fixieren?**
-Manche nutzen den Backofen oder den Föhn. Für eine flauschige Decke ist das Bügeleisen mit niedriger Temperatur und Tuch die sicherere Wahl.
-
-**Wann darf ich die bemalte Decke das erste Mal waschen?**
-Am besten frühestens eine Woche nach dem Fixieren, im Schonwaschgang mit mildem Waschmittel, danach an der Luft trocknen.
-
----
-
-## SEO-Notizen (nicht veröffentlichen)
-
-- **Keyword-Entscheidung:** Ursprünglich geplant war `textilstifte waschfest` (880/Monat). Die Google-Ergebnisse dafür sind aber ausschließlich Shops (Amazon, edding, Otto) → **Kaufabsicht**. Ein Artikel rankt dafür kaum.
-  → Dieser Artikel zielt auf `textilstifte fixieren` / `textilstifte bügeln` (Informationsabsicht), `textilstifte waschfest` gehört auf die **Zubehör-Kollektion** bzw. Produktseite der Stifte.
-- **Top-3-Analyse (Google DE):** daskreativeuniversum.de (~700 Wörter), focus.de (~450), suertetextile.com (~2.800). Gemeinsame Themen: 24 h trocknen, ohne Dampf bügeln, Tuch/Rückseite, 3–5 Min., Backofen, Wartezeit vor dem Waschen, Temperaturen nach Stoff.
-  **Was alle drei nicht haben:** Plüsch-/Fleecedecke und Malen mit Kindern → unser Vorsprung.
-- **Länge:** ca. 1.050 Wörter Artikel + FAQ.
-- **Externe Links:** edding (Hersteller), Marabu (Hersteller).
-- **Interne Links:** Produktseite Maldecke, Kollektion Zubehör, Blog-Übersicht → Handles an den echten Shop anpassen.
-- **Nach dem Launch:** URL in der Google Search Console einreichen („Indexierung beantragen“).
