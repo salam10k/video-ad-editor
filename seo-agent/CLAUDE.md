@@ -47,15 +47,25 @@ npm run cadence -- --project <name>        # can we publish today?
 ```
 Network-dependent tools need internet on the machine running them. If a fetch is blocked, use Firecrawl/OpenSEO instead and say so.
 
-## Commands (skills)
+## Commands (skills) — the video, step by step, for any project
 
-- `/new-project` — create a project profile by asking a few questions.
-- `/audit` — analyze a site: crawl + OpenSEO audit + Lighthouse + keyword coverage → prioritized report.
-- `/fix` — fix the problems from the latest audit, on the platform itself when possible, then re-check.
-- `/check` — check one page or draft against the on-page checklist and fix it.
-- `/write` — the full blog-post pipeline (the video's `/blog`) for any language and platform.
-- `/keywords` — keyword research for the project's market and language(s).
-- `/tech-seo` — Lighthouse to 100 + sitemap/robots/canonical/hreflang/schema.
+| # | Video step | Command | New site | Existing site/store |
+|---|---|---|---|---|
+| 0 | Project folder + CLAUDE.md | `/new-project` | ✓ | ✓ |
+| 1 | Build the website (static, design from a screenshot) | `/build-site` | ✓ | — (never build a second site) |
+| 2 | Winning keywords (KD ≤ 30, volume ≥ 100, intent, questions, adjacent, competitors) | `/keywords` | ✓ | ✓ |
+| 3 | First blog post + keyword cluster + Pexels images | `/blog` (= `/write`) | ✓ | ✓ |
+| 4 | Voice, humor, opinions, stats, stories | `/voice` | ✓ | ✓ |
+| 5 | Copy the format of the top 3 results | inside `/blog` | ✓ | ✓ |
+| 6 | Service pages (money keywords, homepage layout) | `/service` | ✓ | ✓ (collections, products, landing pages) |
+| 7 | On-page SEO (80+ signals) | `/check` | ✓ | ✓ |
+| 8 | Technical SEO: sitemap, robots, Lighthouse 100 | `/tech-seo` | ✓ | ✓ |
+| 9 | Bottle it into one skill | `/blog` | ✓ | ✓ |
+| 10 | Deploy (GitHub + Vercel / platform) | `/publish` | ✓ | ✓ |
+| 11 | Google Business Profile, Search Console, sitemap, request indexing, GA | `/publish` | ✓ | ✓ |
+| 12 | Off-page (safe methods only) | `../seo-site/seo/off-page.md` | ✓ | ✓ |
+| + | Analyze an existing site | `/audit` | — | ✓ |
+| + | Fix what the audit found, then re-check | `/fix` | — | ✓ |
 
 ## Rules
 
