@@ -51,7 +51,7 @@ A written quote needs three things: **exactly what they'll do, what it costs, an
 
 ## 4. Do they explain things in plain language?
 
-A company hiding behind jargon either doesn't understand its own work or wants you to feel like you don't. The right one walks you through your options and tells you honestly when you don't need something.
+A company hiding behind jargon either doesn't understand its own work or wants you to feel like you don't. The right one walks you through your options and tells you honestly when you don't need something. Hiring a consultant? Our guide on [how much consulting costs](/en/blog/how-much-does-consulting-cost/) shows what's normal.
 
 ## 5. What happens after delivery?
 

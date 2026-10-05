@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Price tag, clock and calculator">
+  <rect width="1200" height="675" fill="#f2ede4"/>
+  <circle cx="190" cy="120" r="200" fill="#e9dfcf"/>
+  <rect x="190" y="210" width="260" height="340" rx="28" fill="#0f2a3d"/>
+  <rect x="225" y="245" width="190" height="70" rx="10" fill="#d9f0e3"/>
+  <g fill="#ffffff"><rect x="225" y="345" width="50" height="45" rx="8"/><rect x="295" y="345" width="50" height="45" rx="8"/><rect x="365" y="345" width="50" height="45" rx="8"/><rect x="225" y="410" width="50" height="45" rx="8"/><rect x="295" y="410" width="50" height="45" rx="8"/><rect x="365" y="410" width="50" height="110" rx="8" fill="#c2410c"/><rect x="225" y="475" width="120" height="45" rx="8"/></g>
+  <circle cx="640" cy="330" r="130" fill="#ffffff" stroke="#0f2a3d" stroke-width="10"/>
+  <path d="M640 330 v-80 M640 330 l60 35" stroke="#c2410c" stroke-width="12" stroke-linecap="round"/>
+  <g transform="rotate(-18 930 380)">
+    <path d="M820 300 h200 a20 20 0 0 1 20 20 v130 a20 20 0 0 1 -20 20 h-200 l-60 -85z" fill="#c2410c"/>
+    <circle cx="800" cy="385" r="14" fill="#f2ede4"/>
+    <text x="870" y="410" font-family="system-ui, sans-serif" font-size="74" font-weight="800" fill="#ffffff">$?</text>
+  </g>
+</svg>

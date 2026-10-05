@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "date": "2026-10-05",
+    "type": "blog",
+    "lang": "ar",
+    "slug": "how-much-does-consulting-cost",
+    "keyword": "أسعار الاستشارات الإدارية",
+    "translationKey": "consulting-cost"
+  },
+  {
+    "date": "2026-10-05",
+    "type": "blog",
+    "lang": "en",
+    "slug": "how-much-does-consulting-cost",
+    "keyword": "how much does consulting cost",
+    "translationKey": "consulting-cost"
+  }
+]
