@@ -6,7 +6,7 @@ argument-hint: "[project]"
 
 # /tech-seo
 
-1. `npm run lighthouse -- --project <p>` (or use a pasted report / pagespeed.web.dev). After launch also read Search Console via OpenSEO.
+1. `npm run lighthouse -- --project <p>` (or use a pasted report / pagespeed.web.dev). After launch also check Search Console → Experience (Core Web Vitals).
 2. Group failing audits by cause (images, apps/scripts, fonts, theme code, contrast, headings, links).
 3. Fix by platform: Shopify → compress/resize images, remove unused apps, theme settings, lazy-load; WordPress → caching/image plugins, theme;
    static → code. Explain what needs a developer or theme change.

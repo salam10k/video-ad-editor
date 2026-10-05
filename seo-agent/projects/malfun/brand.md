@@ -1,6 +1,6 @@
 # Brand rules — MalFun
 
-Source: Notion → التاجر الرابح → Claude Skill Library → `malfun-brand-voice` v2.0.0 (rebrand Blanvas → MalFun).
+Source: the owner's brand-voice rules (malfun-brand-voice v2.0.0), copied 2026-10-05.
 
 ## Voice
 - German, **"du"** form by default. English only on request.
@@ -17,4 +17,4 @@ Source: Notion → التاجر الرابح → Claude Skill Library → `malfu
 ## Never
 - No medical or developmental claims (e.g. "fördert nachweislich …").
 - No unconfirmed specs ("hidden spec rule") and no results that were not tested ("proof gate").
-- No numbers from the old research library in Notion (written for another brand, contains invented figures).
+- No numbers from the old research library (written for another brand, contains invented figures).

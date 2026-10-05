@@ -8,8 +8,8 @@ argument-hint: "[site URL]"
 
 1. Ask in one message (accept partial answers): site URL · platform (Shopify, WordPress, Salla, Zid, Wix, static/code, other) ·
    language(s) · target country · business type · 3–5 confirmed facts (product/service, prices, delivery, guarantees, real numbers) ·
-   voice/tone · known competitors · where keywords/tasks already live (OpenSEO project, Notion page, Semrush, a CSV).
-2. Look things up instead of asking where possible: OpenSEO `list_projects` / `get_project_context` for this domain, Notion search for the brand name.
+   voice/tone · known competitors · an existing keyword export, if any (CSV from any tool).
+2. Look things up instead of asking where possible: read the live site (home, about, product/service pages) for facts to confirm with the user.
 3. Copy `projects/_template/` to `projects/<short-name>/` and fill `project.json`, `brand.md`, `keywords.csv`
    (import existing keyword data with real numbers; never invent volumes).
 4. Publishing method: Shopify → Shopify connector; WordPress → REST API (WP_USER / WP_APP_PASSWORD in .env); static → git path; otherwise manual.

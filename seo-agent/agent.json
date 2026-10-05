@@ -1,0 +1,8 @@
+{
+  "notionLog": {
+    "enabled": true,
+    "page": "https://app.notion.com/p/3f03937e585f8169a466ffa5d1e41755",
+    "dataSource": "collection://06a067a7-f2c6-4048-af5a-c04447384197",
+    "note": "Write-only work log. Separate from the OpenSEO page. Never read project data from Notion."
+  }
+}

@@ -11,7 +11,7 @@
   "competitors": [],
   "publish": {
     "method": "connector",
-    "notes": "Shopify store, password-protected (pre-launch) as of 2026-10-05. Connect the Shopify connector in claude.ai to publish/update directly; until then the agent writes copy-paste-ready drafts in content/. Keyword bank, SEO tasks and monthly reports live in Notion: 'SEO والظهور في جوجل' (OpenSEO data)."
+    "notes": "Shopify store, password-protected (pre-launch) as of 2026-10-05. Connect the Shopify connector in claude.ai to publish/update directly; until then the agent writes copy-paste-ready drafts in content/."
   },
   "internalLinks": {
     "home": "/",
@@ -22,5 +22,5 @@
     "gifts": "/collections/geschenkideen"
   },
   "limits": { "titleMin": 30, "titleMax": 60, "descMin": 110, "descMax": 160, "thinWords": 250 },
-  "notes": "internalLinks handles are PLANNED names from the Notion keyword bank, not yet verified in the live store."
+  "notes": "internalLinks handles are PLANNED names from the keyword plan, not yet verified in the live store."
 }

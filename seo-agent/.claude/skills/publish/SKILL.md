@@ -13,7 +13,7 @@ argument-hint: "[project]"
    - **WordPress:** REST API with WP_USER/WP_APP_PASSWORD, or a paste file.
    - **Other (Salla, Zid, Wix…):** paste file with field → value.
 3. **Google (once per site):** Search Console → URL-prefix property → HTML-tag verification (put the tag in the platform/theme or `site.config.ts`) →
-   Sitemaps → submit `sitemap.xml`. Connect Search Console + GA4 to the OpenSEO project so the agent can read results later.
+   Sitemaps → submit `sitemap.xml`. Connect Google Analytics 4 too.
 4. **Each new page:** Search Console → URL Inspection → Request indexing (≈10/day; money pages first). Log with `npm run cadence -- --project <p> --log <url>`.
 5. **Local businesses:** Google Business Profile with the exact same name, address, phone as the site.
 6. Report the live URLs and what the user must click themselves.

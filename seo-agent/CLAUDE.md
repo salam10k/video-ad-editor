@@ -23,17 +23,17 @@ Each site is a folder in `projects/<name>/`:
 Start every task by reading the project's `project.json` and `brand.md`. If the user names no project and there is only one, use it; otherwise ask.
 New project → `/new-project`.
 
-## Data sources (use what is connected, in this order)
+## Data sources — the agent works on its own
 
-1. **OpenSEO connector** (preferred): `list_projects` → `get_project_context` first (it holds what the user already told OpenSEO),
-   then `research_keywords`, `get_keyword_metrics`, `get_serp_results`, `run_site_audit` + `get_audit_issues`, `get_ranked_keywords`,
-   `find_serp_competitors`, rank tracker, and — after launch — `get_search_console_performance` and Google Analytics tools.
-   OpenSEO uses credits: ask before planned batches over 2,000 credits.
-2. **Semrush connector**, if it has API units.
-3. **Notion** (the user's workspace may already hold keyword banks, tasks and brand rules).
-4. **Firecrawl / web search** for reading the top results and competitor pages.
-5. The project's own `keywords.csv`.
-Never invent search volumes or difficulty. If no data source works, say so and mark numbers as unknown.
+The agent is **standalone**: it does not read from OpenSEO or Notion. Its inputs are:
+
+1. The project's own files (`project.json`, `brand.md`, `keywords.csv`, earlier `reports/`).
+2. The live site itself (`npm run crawl`, `npm run check <url>`, Lighthouse).
+3. Live Google results and competitor pages (web search / Firecrawl) for intent checks and top-3 analysis.
+4. **Semrush connector** for search volume and difficulty, only if it is connected and has API units.
+
+Never invent search volumes or difficulty. If no number is available, write "unknown" and decide on intent + live results instead.
+The user may paste or drop a keyword export (from any tool) into `keywords.csv`; treat those numbers as given.
 
 ## Tools (run from this folder)
 
@@ -45,7 +45,7 @@ npm run serp -- <url1> <url2> <url3>       # average format of the top 3 results
 npm run lighthouse -- --project <name>     # Lighthouse on home + one page per template
 npm run cadence -- --project <name>        # can we publish today?
 ```
-Network-dependent tools need internet on the machine running them. If a fetch is blocked, use Firecrawl/OpenSEO instead and say so.
+Network-dependent tools need internet on the machine running them. If a fetch is blocked, use Firecrawl / web search instead and say so.
 
 ## Commands (skills) — the video, step by step, for any project
 
@@ -66,6 +66,11 @@ Network-dependent tools need internet on the machine running them. If a fetch is
 | 12 | Off-page (safe methods only) | `../seo-site/seo/off-page.md` | ✓ | ✓ |
 | + | Analyze an existing site | `/audit` | — | ✓ |
 | + | Fix what the audit found, then re-check | `/fix` | — | ✓ |
+
+## Work log in Notion (output only)
+
+After **every** command, write one entry to the agent's own Notion log (see `agent.json` → `notionLog`) — never into other Notion pages.
+Follow `.claude/skills/log/SKILL.md`. Notion is only a place to report what was done; never read project data from it.
 
 ## Rules
 

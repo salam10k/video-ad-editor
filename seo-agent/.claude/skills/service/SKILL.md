@@ -6,7 +6,7 @@ argument-hint: "[project] [keyword or service + city]"
 
 # /service — money pages for any project
 
-1. **Find money keywords:** `keywords.csv` rows with buying intent, sorted by CPC (what advertisers pay = money). Real data only (OpenSEO/Semrush).
+1. **Find money keywords:** `keywords.csv` rows with buying intent, sorted by CPC (what advertisers pay = money). Real data only (keywords.csv / Semrush).
    Confirm intent on live results (shops/providers in the top 10).
 2. **Pick the page type by project type:**
    | Project | Page | Pattern |
