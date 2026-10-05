@@ -15,17 +15,17 @@ If the first 50 words don't land at least one of these, rewrite them:
 
 ## Persona
 We're not a brochure. We're the friendly expert at the café who has had one coffee too many and is now
-happily explaining how a toilet works.
+happily explaining how their job actually works.
 
 ## Techniques that work
-- Personify the problem: "your toilet isn't mad at you (probably)".
+- Personify the problem: "your laptop isn't mad at you (probably)".
 - Unexpected comparisons: "hissing longer than most celebrity marriages", "like a gym membership you never use".
-- Self-deprecation about the industry: "plumbing articles are nobody's idea of a fun Saturday".
+- Self-deprecation about the industry: "articles about our field are nobody's idea of a fun Saturday".
 - Callbacks: end the article with a callback to the opening joke.
 
 ## Limits
 - Humor never at the customer's expense, never about religion, politics, gender or nationality.
-- In emergency instructions (gas, electricity, flooding): zero jokes inside the steps. Joke before or after.
+- In safety or urgent instructions: zero jokes inside the steps. Joke before or after.
 - Arabic humor: light and local; avoid translated English puns that don't land.
 
 ## Reference passages (examples of humor we like)

@@ -1,8 +1,8 @@
 // ============================================================================
 // THE ONE FILE TO EDIT FOR YOUR BUSINESS.
-// Everything below is a DEMO (a fictional plumbing company, like the video).
-// Replace names, phone, cities and services with your own — any business works:
-// clinic, salon, cleaning, real estate, lawyer, gym, car repair, agency...
+// Everything below is a GENERAL PLACEHOLDER. Run /setup in Claude Code to fill it in
+// by answering a few questions, or edit it by hand. Any business works:
+// clinic, salon, cleaning, real estate, lawyer, gym, car repair, agency, restaurant...
 // ============================================================================
 
 export type Lang = 'ar' | 'en';
@@ -15,32 +15,32 @@ export const site = {
   url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://example.vercel.app').replace(/\/$/, ''),
 
   business: {
-    name: { ar: 'سبّاك الحي', en: 'Neighborhood Plumbing' } as Localized,
+    name: { ar: 'اسم نشاطك', en: 'Your Business' } as Localized,
     tagline: {
-      ar: 'سبّاك يوصلك بسرعة، ويشرح لك المشكلة بلغة تفهمها',
-      en: 'A plumber who shows up fast and explains the problem in plain words',
+      ar: 'خدمة احترافية، بسعر واضح، ورد سريع',
+      en: 'Professional service, clear pricing, fast replies',
     } as Localized,
-    // schema.org type: Plumber, Dentist, HairSalon, LegalService, HomeAndConstructionBusiness, LocalBusiness...
-    schemaType: 'Plumber',
+    // schema.org type: LocalBusiness, ProfessionalService, Dentist, HairSalon, LegalService, Restaurant, Plumber...
+    schemaType: 'LocalBusiness',
     phone: '+966500000000',
     whatsapp: '966500000000', // digits only, used for wa.me links
     email: 'hello@example.com',
     address: {
-      street: { ar: 'طريق الملك فهد', en: 'King Fahd Road' } as Localized,
+      street: { ar: 'اسم الشارع', en: 'Street name' } as Localized,
       city: { ar: 'الرياض', en: 'Riyadh' } as Localized,
       region: { ar: 'منطقة الرياض', en: 'Riyadh Province' } as Localized,
       postalCode: '12211',
       country: 'SA',
     },
     geo: { lat: 24.7136, lng: 46.6753 },
-    openingHours: 'Mo-Su 00:00-23:59',
+    openingHours: 'Su-Th 09:00-21:00',
     priceRange: '$$',
-    foundingYear: 2015,
-    // Short proof points shown on the homepage & service pages. Keep them TRUE.
+    foundingYear: 2020,
+    // Short proof points shown on the homepage & service pages. Replace with TRUE numbers.
     stats: [
-      { value: '10+', label: { ar: 'سنوات خبرة', en: 'years in business' } },
-      { value: '60', label: { ar: 'دقيقة متوسط الوصول', en: 'min average arrival' } },
-      { value: '24/7', label: { ar: 'طوارئ على مدار الساعة', en: 'emergency service' } },
+      { value: '5+', label: { ar: 'سنوات خبرة', en: 'years of experience' } },
+      { value: '100+', label: { ar: 'عميل راضي', en: 'happy clients' } },
+      { value: '24h', label: { ar: 'نرد خلال يوم', en: 'reply time' } },
     ],
     sameAs: [] as string[], // Google Business Profile, Instagram, X, LinkedIn URLs
   },
@@ -49,35 +49,35 @@ export const site = {
   // Only create pages where there is real search demand (see /service skill).
   services: [
     {
-      key: 'emergency-plumbing',
-      name: { ar: 'سباكة طوارئ', en: 'Emergency plumbing' } as Localized,
+      key: 'consulting',
+      name: { ar: 'استشارات', en: 'Consulting' } as Localized,
       blurb: {
-        ar: 'تسريب في نص الليل؟ نوصلك خلال ساعة.',
-        en: 'Leak at 2 a.m.? We are there within the hour.',
+        ar: 'نسمع منك، ونعطيك خطة واضحة قبل أي التزام.',
+        en: 'We listen first, then give you a clear plan before any commitment.',
       } as Localized,
     },
     {
-      key: 'drain-cleaning',
-      name: { ar: 'تسليك مجاري', en: 'Drain cleaning' } as Localized,
+      key: 'project-delivery',
+      name: { ar: 'تنفيذ المشاريع', en: 'Project delivery' } as Localized,
       blurb: {
-        ar: 'تسليك بدون تكسير، وبدون مواد تأكل مواسيرك.',
-        en: 'No smashing tiles, no chemicals that eat your pipes.',
+        ar: 'تنفيذ كامل من البداية للتسليم، بمواعيد مكتوبة.',
+        en: 'End-to-end delivery with written deadlines.',
       } as Localized,
     },
     {
-      key: 'water-heater-repair',
-      name: { ar: 'صيانة سخانات', en: 'Water heater repair' } as Localized,
+      key: 'maintenance-support',
+      name: { ar: 'الصيانة والدعم', en: 'Maintenance & support' } as Localized,
       blurb: {
-        ar: 'ماء بارد الصبح؟ نصلحه أو نقول لك بصراحة إنه انتهى.',
-        en: 'Cold shower? We fix it — or honestly tell you it is done.',
+        ar: 'نكون معك بعد التسليم، مو بس قبله.',
+        en: 'We stay with you after delivery, not just before it.',
       } as Localized,
     },
     {
-      key: 'leak-detection',
-      name: { ar: 'كشف تسربات', en: 'Leak detection' } as Localized,
+      key: 'training',
+      name: { ar: 'التدريب', en: 'Training' } as Localized,
       blurb: {
-        ar: 'نلقى التسريب بالأجهزة قبل ما نلمس جدار.',
-        en: 'We find the leak with sensors before touching a wall.',
+        ar: 'نعلّم فريقك يشتغل بنفسه بثقة.',
+        en: 'We teach your team to run it confidently on their own.',
       } as Localized,
     },
   ],

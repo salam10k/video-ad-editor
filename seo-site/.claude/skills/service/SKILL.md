@@ -16,7 +16,7 @@ Only build pages where people actually search — a few strong pages beat hundre
 - Speed limit: `npm run cadence` (same rule as blog posts).
 
 ## 2. Keywords
-Primary keyword = the "service city" phrase people search, per language (e.g. `سباك طوارئ الرياض` / `emergency plumber Riyadh`).
+Primary keyword = the "service city" phrase people search, per language (e.g. `خدمات استشارات في الرياض` / `consulting services in Riyadh`).
 Cluster: "near me", "24 hour", price, neighborhood variants.
 
 ## 3. Research
@@ -25,11 +25,10 @@ prices, guarantees, areas served, FAQ, trust signals. Beat them on clarity and h
 
 ## 4. Write both files
 `content/services/ar/<service>-<city>.md` and `content/services/en/<service>-<city>.md`, same `translationKey`,
-with `service:` and `city:` keys matching `site.config.ts`. Copy the structure of `content/services/ar/emergency-plumbing-riyadh.md`.
+with `service:` and `city:` keys matching `site.config.ts`. Copy the structure of `content/services/ar/consulting-riyadh.md`.
 - The page uses the homepage layout automatically (hero + call button + lead form + stats + steps + FAQ + CTA) —
   that layout is the tested converter. **Do not edit `app/[lang]/services/[slug]/page.tsx`.**
-- Content must be **unique to this city**: neighborhoods served, local conditions (water hardness, old buildings,
-  summer heat…), real arrival times from `references/stats.md`. Never just swap the city name.
+- Content must be **unique to this city**: neighborhoods served, local conditions and needs specific to that city, real arrival times from `references/stats.md`. Never just swap the city name.
 - 300+ words, 2+ H2s, 3–6 FAQ, 2+ internal links (a related blog post, `/services/`, home), 0–2 external links.
 - Voice and humor from `references/` (lighter than blog posts — this page sells).
 

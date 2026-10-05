@@ -1,9 +1,9 @@
 # Opinions
 
-> Strong, honest opinions make content memorable and trustworthy. Replace/extend with your real ones.
+> Strong, honest opinions make content memorable and trustworthy. Replace these general examples with your real ones
+> (run `/voice` or `/setup`).
 
-- Most "emergencies" can wait until morning if you close the main valve. We'll still come at 2 a.m. if you want.
-- Chemical drain cleaners do more harm than good to old pipes.
+- If a company won't put the price in writing before starting, find another company.
 - The cheapest quote is often the most expensive job a year later.
-- If a plumber won't tell you the price before starting, find another plumber.
-- Many small fixes (toilet flapper, aerator, shower head) are DIY jobs. We say so.
+- Good service is mostly communication: reply fast, explain clearly, keep promises.
+- Some things you can do yourself. We say so, even when it costs us a sale.

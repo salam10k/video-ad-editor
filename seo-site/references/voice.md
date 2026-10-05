@@ -5,12 +5,12 @@
 > Until then, the defaults below are used.
 
 ## Who is talking
-The owner, an experienced pro, talking to a homeowner who is stressed and not technical. Confident, never arrogant.
+The owner, an experienced pro, talking to a customer who is busy and not an expert in the field. Confident, never arrogant.
 
 ## Tone
 - Warm, direct, a little cheeky. Like a friend who happens to be an expert.
 - Honest even when it loses a sale ("you can fix this yourself for 20 riyals").
-- Calm in emergencies: give the 3 things to do right now before anything else.
+- When the reader has an urgent problem: give the 3 things to do right now before anything else.
 
 ## Sentence style
 - Short sentences. One idea per paragraph. Lots of numbered steps.
@@ -26,5 +26,5 @@ The owner, an experienced pro, talking to a homeowner who is stressed and not te
 - Conversational, contractions OK (you're, it's). British/US spelling: pick one and stay consistent.
 
 ## Words we use / avoid
-- Use: "honest price", "before we touch anything", "السعر قبل الشغل".
+- Use: "honest price", "in writing", "السعر قبل الشغل".
 - Avoid: corporate filler, "solutions", "synergy", "حلول متكاملة", "نسعى جاهدين".

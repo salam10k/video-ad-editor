@@ -50,6 +50,7 @@ npm run lighthouse          # Lighthouse scores + failing audits for key pages (
 
 ## Skills (slash commands)
 
+- `/setup` — first run: turn the general template into the user's business (asks a few questions).
 - `/blog [keyword]` — the whole pipeline for one blog post in both languages.
 - `/service [service] [city]` — one service page (service × city) in both languages.
 - `/keyword-research [seed]` — find winning keywords (KD ≤ 30, volume ≥ 100, right intent) into the CSVs.

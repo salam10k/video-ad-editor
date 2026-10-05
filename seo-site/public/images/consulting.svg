@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Two speech bubbles and a rising chart">
+  <rect width="1200" height="675" fill="#0f2a3d"/>
+  <circle cx="200" cy="560" r="260" fill="#163a54"/>
+  <rect x="140" y="140" width="380" height="200" rx="30" fill="#ffffff"/>
+  <path d="M220 340 l-20 70 l90 -70z" fill="#ffffff"/>
+  <g fill="#d9d1c3"><rect x="190" y="200" width="270" height="22" rx="11"/><rect x="190" y="255" width="200" height="22" rx="11"/></g>
+  <rect x="600" y="250" width="320" height="160" rx="30" fill="#c2410c"/>
+  <path d="M860 410 l20 60 l-80 -60z" fill="#c2410c"/>
+  <g fill="#ffffff" opacity=".85"><rect x="645" y="300" width="230" height="20" rx="10"/><rect x="645" y="345" width="160" height="20" rx="10"/></g>
+  <g stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M700 590 l90 -70 l70 40 l130 -120"/><path d="M940 440 h50 v50"/>
+  </g>
+</svg>
